@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do-list</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h2>Today's Adventure</h2>
+            <h1>The Progress Garden</h1>
+            <p>Progress isn't always fast, but every step forward still counts.</p>
+            <p>Little Wins</p>
+        </div>
+        <div class="middle">
+            <input id="inputtext" type="text" placeholder="Finish one small task.">
+            <button id="add">Add</button>
+        </div>
+        <section class="task">
+            <div class="td">
+                <span>Quests</span>
+                <span id="tdvalue">0</span>
+            </div>
+            <div class="td">
+                <span>Claimed</span>
+                <span id="cdvalue">0</span>
+            </div>
+            <div class="td">
+                <span>Active</span>
+                <span id="pdvalue">0</span>
+            </div>
+        </section>
+        <div class="bottom">
+            <p>Next Up in Your Story</p>
+            <ul id="list"></ul>
+        </div>
+        <div class="modify">
+            <button id="bgchange">Change background</button>
+            <button id="ftchange">Change font style</button>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
