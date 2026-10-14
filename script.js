@@ -27,7 +27,7 @@ Ftstyle.onclick = function() {
     document.body.style.fontFamily = ranfont;
 }
 Bgcolor.onclick = function() {
-    const color = ["#e8f5e9", "#e3f2fd", "#f3e5f5", "#fff3e0", "#fce4ec", "#fffde7", "#e0f2f1"]
+    const color = ["#d8ffdb", "#c3e6ff", "#f7c2ff", "#ffdba1", "#ffc2d6", "#fff9bd", "#84eaff"];
     const rancolor = color[Math.floor(Math.random() * color.length)];
     document.body.style.backgroundColor = rancolor;
 }
